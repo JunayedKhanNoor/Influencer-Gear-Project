@@ -1,0 +1,55 @@
+/* ----------------
+        Fonts  
+         ---------*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+/*----------------
+      Base Style  
+      ------------*/
+body {
+   font-family: "Poppins", sans-serif;
+   background-color: #ffffff;
+}
+
+/* Header Styles  */
+
+header {
+   display: flex;
+   justify-content: center;
+   margin-top: 100px;
+   margin-bottom: 100px;
+}
+.header-description {
+   width: 582px;
+   height: 270px;
+   margin-top: 100px;
+   margin-bottom: 100px;
+   padding-right: 120px;
+}
+.preebook-button {
+    width: 196px;
+    height: 44px;
+    background-color: #E02C6D;
+    color: #FFFFFF;
+    border-radius:20px;
+ }
+.header-thumbnail {
+   width: 440px;
+   height: 414px;
+}
+.header-thumbnail img {
+   width: auto;
+   background-image: url(/images/Group33091.png);
+}
+
+/* Company Logo's styles  */
+.companies {
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.company-logo img {
+   margin-left: 40px;
+}

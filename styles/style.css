@@ -19,7 +19,7 @@ main {
 
 /* Header Styles  */
 .menu {
-   margin-top: 90px;
+   margin-top: 60px;
    height: 60px;
    color: #3a3a3a;
    display: flex;
@@ -318,7 +318,7 @@ footer {
    /* Footer  */
    footer {
       background-color: #0a0826;
-      height: 500px;
+      height: 300px;
       width: 100%;
       color: #ffffff;
       text-align: center;
@@ -427,7 +427,7 @@ footer {
    /* Footer  */
    footer {
       background-color: #0a0826;
-      height: 600px;
+      height: 300px;
       width: 100%;
       color: #ffffff;
       text-align: center;

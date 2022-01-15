@@ -121,3 +121,75 @@ header {
    justify-content: right;
    align-items: center;
 }
+/* Customers Review Styles  */
+.bonus-section{
+   margin: 70px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.customer-review{
+   display: grid;
+   grid-template-columns:repeat(3,1fr);
+   grid-column-gap: 40px;
+   margin-bottom: 70px;
+}
+.review{
+   width: 450px;
+   height: 350px;
+   background: #ffffff;
+   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+   border-radius: 10px;
+   display: flex;
+   flex-direction:column;
+   justify-content:center;
+   align-items: center;
+   padding: 20px;
+
+}
+.review img{
+   height: 200px;
+   width: 200px;
+   border-radius: 90px;
+}
+/* ------------------Customer Feedback  ------
+-----------------------------------------*/
+.forum{
+   text-align: center;
+   margin-bottom: 80px;
+   
+ }
+ .input-div{
+   margin-top: 15px;
+   
+ }
+ .input-div label{
+   display: block;
+   
+ }
+ .input{
+   width: 300px;
+   background: #ffffff;
+   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+   border-radius: 5px;
+ }
+ #button{
+   font-size: x-large;
+   margin-top: 8px;
+   color: white;
+   background-image: linear-gradient(black,gray);
+ }
+ /* ---------------Footer Styles
+ --------------------------------------------  */
+ footer{
+    background-color: #0A0826;
+    height: 239px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+ }
+ .footer-icon{
+    padding: 5px;
+    font-size:25px;
+ }

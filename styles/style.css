@@ -351,8 +351,8 @@ footer {
       order: 2;
       width: 100%;
       height: 100%;
-      margin: auto;
-      padding: auto;
+      padding: 0;
+      text-align: center;
    }
    .preebook-button {
       width: auto;

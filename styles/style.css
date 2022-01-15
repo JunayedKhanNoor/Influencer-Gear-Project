@@ -18,6 +18,25 @@ main {
 }
 
 /* Header Styles  */
+.menu{
+   margin-top: 90px;
+   height: 60px;
+   color: #3A3A3A;
+   display: flex;
+   justify-content: center;
+
+}
+nav{
+   width: 1150px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.menu-span2 a{
+   text-decoration: none;
+   padding: 10px;
+   font-size: 16px;
+}
 
 header {
    display: flex;
@@ -123,7 +142,7 @@ header {
 }
 /* Customers Review Styles  */
 .bonus-section{
-   margin: 70px;
+   margin: 30px;
    display: flex;
    flex-direction: column;
    justify-content: center;
